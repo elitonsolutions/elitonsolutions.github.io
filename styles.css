@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: #222;
+	line-height: 1.6;
+	letter-spacing: .7px;
+}
+.navbar {
+	padding: .8rem;
+}
+.navbar-nav li {
+	padding-right: 1.25rem;
+}
+.nav-link {
+	font-size: 1.2em !important;
+	color: #fff!important;
+}
+.navbar .navbar-brand {
+	color: #fff;
+}
+.display-4 {
+	font-weight: bold;
+}
+h5 {
+	font-weight: 700;
+}
+h5 {
+	color: #f7f5f5;
+}
+h4 {
+	margin: 1rem;
+	font-size: 1.1rem;
+}
+.margin {
+	margin-top: 2rem!important;
+}
+.lead {
+	margin-bottom: 2rem;
+}
+
+.padding-us {
+	padding: 3rem 0rem!important;
+}
+i {
+	font-size: 6rem;
+	color: #e33451;
+	margin-bottom: 2rem;
+}
+
+span {
+	margin-right: 1rem;
+	color: #e33451;
+}
+.jumbotron {
+	background-color: #7395ae!important;
+	color: #fff;
+}
+.call-to-act {
+	padding: 3rem 1rem!important;
+	margin-bottom: 0;
+	border-radius: 0!important;
+	background-color: #007bff!important;
+}
+.call-to-act p {
+	font-size: 2rem;
+}
+footer {
+	background-color: #6b6a69;
+	color: #fff;
+	margin: 0rem;
+	padding: 3rem 0rem 0.5rem 0rem;
+}
+ol {
+	line-height: 1.6;
+	padding-left: 1em;
+}
+
+footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+footer ul a {
+	color: #fff;
+}
+.padding {
+	padding-top: 3.5rem;
+}
+.follow-us {
+	font-size: 2rem;
+	color: #fff;
+	margin: 1rem .8rem;
+}
+.my-4 {
+	border-top: 1px solid #fff;
+}
+
+/* Form styling */
+.contact-title span {
+	display: block;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #222;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+input[type=text], input[type=tel], input[type=email] {
+	padding: 1.5rem 1rem;
+	margin: .9rem 0;
+	background-color: #ebebed;
+}
+
+.form-padding {
+	padding: 5rem 0;
+}
+
+.row-width {
+	max-width: 75%;
+	margin: auto;
+}
+.card {
+	border: none;
+	margin-bottom: 1rem;
+}
+.card-title {
+	color: #222;
+}
+hr {
+	border-top: 1px solid #d7d7d9;
+}
+
+/* Media Queries */
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767.98px) { 
+	.font {
+		font-size: 2rem;
+		margin-top: 3rem;		
+	}
+}
+
+@media (min-width: 768px) { 
+	.font {
+		font-size: 2rem;		
+	}
+}
+
+@media (max-width: 575.98px) { 
+	.display-4 {
+		font-size: 2rem;		
+	}
+	.jumbotron .btn {
+		margin-bottom: 1rem;
+	}
+}
+@media (max-width: 575.98px) { 
+	.font {
+		font-size: 2rem;
+		margin-top: 3rem;
+		text-align: center;
+		text-transform: capitalize!important;
+	}
+	span {
+		text-transform: capitalize!important;
+	}
+	.contact-title h2 {
+		font-size: 1.5rem;
+	}	
+}
